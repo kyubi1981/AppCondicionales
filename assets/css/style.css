@@ -134,9 +134,31 @@ footer {
 
 .cant {
     /*border: 1px solid black;*/
-
     text-align: center;
 }
+
+.dsf3{
+    display: flex;
+}
+
+.contenido-dsf3 h1{
+    padding-bottom: 30px;
+}
+
+.contenido-dsf3 {
+    border: 1px solid black;
+    height: 250px;
+    width: 400px;
+}
+
+.combos-dsf3 {
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
 
 /***********************************
 **  -----   MediaQueries   -----  ** 

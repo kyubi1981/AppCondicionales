@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="./assets/js/funciones.js"></script>
+
     <link rel="stylesheet" href="./assets/css/style.css">
 
 
@@ -20,31 +23,40 @@
 
         <nav>
             <div class="menu">
-                <a href="#">Desafío 1 - Bordes</a>
+                <!--
+                 <a href="#">Desafío 1 - Bordes</a>
                 <a href="#">Desafío 2 - Stickers</a>
-                <a href="#">Desafío 3 - Password</a>
+                <a href=onclick()>Desafío 3 - Password</a>
+                -->
+               
+                <button onclick="dsf1()">Desafío 1 - Bordes</button>
+
+                <button onclick="dsf2()">Desafío 2 - Stickers</button>
+
+                <button onclick="dsf3()">Desafío 3 - Password</button>
+
             </div>
         </nav>
 
         <main>
-            <div class="dsf1">
+            <div id="dsf1">
                 <div class="gallery">
 
                     <div class="cards">
                         <div class="cards-img">
-                            <img class="img1" src="./assets/img/car.jpeg" alt="">
+                            <img class="img-desaf1" src="./assets/img/car.jpeg" alt="">
                         </div>
                     </div>
 
                 </div>    
             </div>
 
-            <div class="dsf2">
+            <div id="dsf2">
                 <div class="gallery">
 
                     <div class="cards">
                         <div class="cards-img">
-                            <img class="img1" src="./assets/img/sticker1.jpeg" alt="">
+                            <img class="img-desaf2" src="./assets/img/sticker1.jpeg" alt="">
                         </div>
                         <div class="cant">
                             <input type="number"> 
@@ -53,7 +65,7 @@
                    
                     <div class="cards">
                         <div class="cards-img">
-                            <img class="img1" src="./assets/img/sticker2.jpeg" alt="">
+                            <img class="img-desaf2" src="./assets/img/sticker2.jpeg" alt="">
                         </div>
                         <div class="cant">
                             <input type="number"> 
@@ -62,7 +74,7 @@
 
                     <div class="cards">
                         <div class="cards-img">
-                            <img class="img1" src="./assets/img/sticker3.jpeg" alt="">
+                            <img class="img-desaf2" src="./assets/img/sticker3.jpeg" alt="">
                         </div>
                         <div class="cant">
                             <input type="number"> 
@@ -71,15 +83,67 @@
 
                 </div> 
             </div>
-            <div class="dsf3">
+
+            <div id="dsf3">
+
+                <div class="contenido-dsf3">
+
+                    <h1>Ingresa el password</h1>
+
+                    <div class="combos-dsf3">
+
+                        <div class="cmb">
+                            <select name="select" id="cmb_clave1">
+                                <option value="value1" selected>Value 1</option>
+                                <option value="value2">Value 2</option>
+                                <option value="value3">Value 3</option>
+                                <option value="value1">Value 4</option>
+                                <option value="value2">Value 5</option>
+                                <option value="value3">Value 6</option>
+                                <option value="value1">Value 7</option>
+                                <option value="value2">Value 8</option>
+                                <option value="value3">Value 9</option>
+                            </select>    
+                        </div>
+                        <div class="cmb">
+                            <select name="select" id="cmb_clave2">
+                                <option value="value1" selected>Value 1</option>
+                                <option value="value2">Value 2</option>
+                                <option value="value3">Value 3</option>
+                                <option value="value1">Value 4</option>
+                                <option value="value2">Value 5</option>
+                                <option value="value3">Value 6</option>
+                                <option value="value1">Value 7</option>
+                                <option value="value2">Value 8</option>
+                                <option value="value3">Value 9</option>
+                            </select>    
+                        </div>
+                        <div class="cmb">
+                            <select name="select" id="cmb_clave3">
+                                <option value="value1" selected>Value 1</option>
+                                <option value="value2">Value 2</option>
+                                <option value="value3">Value 3</option>
+                                <option value="value1">Value 4</option>
+                                <option value="value2">Value 5</option>
+                                <option value="value3">Value 6</option>
+                                <option value="value1">Value 7</option>
+                                <option value="value2">Value 8</option>
+                                <option value="value3">Value 9</option>
+                            </select>    
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
+
         </main>
 
         <footer>
 
         </footer>
     </div>
-    <script type="text/javascript" src="./assets/js/funciones.js"></script>
+
 </body>
 </html>
