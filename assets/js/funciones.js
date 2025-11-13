@@ -35,12 +35,7 @@ function dsf3() {
         x.style.display = "block";
         y.style.display = "none";
         z.style.display = "none";
-
     } else {
         x.style.display = "none";
-        /*var y = document.getElementById("dsf1");
-        var z = document.getElementById("dsf2");
-        y.style.display = "block";
-        z.style.display = "block";*/
     }
 }
