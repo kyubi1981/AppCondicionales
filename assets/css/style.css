@@ -43,13 +43,19 @@ nav {
     /*border: 1px solid black;*/
     background-color: rgb(48, 70, 116);
     grid-area: nav;
-    padding: 5px;
+    padding: 10px;
     font-size: 10px;
     /*color: rgb(239, 181, 160);*/
 }
 
 .menu a:hover {
     color: grey;
+}
+
+.btn-mnu {
+    height: 40px;
+    padding: 10px;
+    margin-top: 5px;
 }
 
 main {
@@ -63,6 +69,19 @@ main {
     color: black;
     overflow-y: auto;
 }
+
+.dsf1{
+
+}
+
+.dsf2{
+
+}
+
+.dsf3{
+  
+}
+
 
 footer {
     /*border: 1px solid black;*/
@@ -137,9 +156,9 @@ footer {
     text-align: center;
 }
 
-.dsf3{
+/*.dsf3{
     display: flex;
-}
+}*/
 
 .contenido-dsf3 h1{
     padding-bottom: 30px;
@@ -147,16 +166,37 @@ footer {
 
 .contenido-dsf3 {
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-content: center;
+
     height: 250px;
     width: 400px;
+    text-align: center;
 }
 
 .combos-dsf3 {
+    /*border: 1px solid black;*/
+    height: 40px;
+
+    display: flex;
     flex-direction: row;
+
+    justify-content: center;
+    align-content: center;
+
+}
+
+.cmb {
+    /*border: 1px solid black;*/
+    width: 50px;
+    height: 30px;
+    /*flex-direction: row;*/
     justify-content: center;
     align-content: center;
 }
-
 
 
 
