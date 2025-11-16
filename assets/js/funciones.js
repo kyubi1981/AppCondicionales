@@ -61,7 +61,7 @@ function miBorde() {
     }
 }
 
-//**** LOGICA DEL MINI-DESAFIO #1 --- BORDES ****/
+//**** LOGICA DEL MINI-DESAFIO #2 --- TICKETS ****/
 
 function totalizar() {
     var valor1 = document.getElementById("cant1").value;
@@ -97,3 +97,37 @@ function limpiaTickets() {
     input3.value = '';
 }
 
+//**** LOGICA DEL MINI-DESAFIO #3 --- PASSWORD ****/
+
+function validaPass() {
+    var valor1 = document.getElementById("cmb_clave1").value;
+    var valor2 = document.getElementById("cmb_clave2").value;
+    var valor3 = document.getElementById("cmb_clave3").value;
+
+    var clave = Number(valor1*100) + Number(valor2*10) + Number(valor3*1);
+
+    //alert(clave);
+
+    var mensaje = document.querySelector('#msg-clave');
+
+    if (clave === 911) {
+        mensaje.innerHTML = "Password 1 correcto";
+    } else if (clave === 714) {
+        mensaje.innerHTML = "Password 2 es correcto";
+    } else {
+        mensaje.innerHTML = "Password incorrecto";
+    }
+}
+
+/*function limpiaPass() {
+    alert("limpiando pass...");
+    const select1 = document.getElementById("cmb_clave1").value;
+    const select2 = document.getElementById("cmb_clave2").value;
+    const select3 = document.getElementById("cmb_clave3").value;
+
+    alert(select1 + select2 + select3);
+    
+    document.getElementById("cmb_clave1").innerHTML = "";
+    document.getElementById("cmb_clave2").innerHTML = "";
+    document.getElementById("cmb_clave3").innerHTML = "";
+}*/

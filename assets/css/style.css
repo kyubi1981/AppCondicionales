@@ -187,7 +187,7 @@ footer {
     margin: 5px;
 }
 
-.result{
+.result {
     /*border: 1px solid black;*/
     display: flex;
     flex-direction: column;
@@ -195,14 +195,14 @@ footer {
     align-items: center;
 }
 
-.msg-sticker{
+.msg-sticker {
     width: 80%;
     box-shadow: 3px 3px 5px #342d2d;
     margin-top: 20px;
     text-align: center;
 }
 
-.btn-total{
+.btn-total {
     width: 120px;
     height: 30px;
     margin-top: 20px;
@@ -211,7 +211,7 @@ footer {
     border: 1px solid lightgray;
 }
 
-.btn-limpiar{
+.btn-limpiar {
     width: 120px;
     height: 30px;
     margin-top: 5px;
@@ -263,6 +263,39 @@ footer {
     align-content: center;
 }
 
+.content-pass {
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-validar {
+    width: 120px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: rgb(102, 123, 215);
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid black;
+
+}
+
+.msg-pass {
+    width: 60%;
+    box-shadow: 1px 1px 4px #342d2d;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*.btn-limpiar {
+    width: 120px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: rgb(229, 176, 62);
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid lightgray;
+}*/
 
 
 /***********************************
