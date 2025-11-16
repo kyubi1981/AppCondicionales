@@ -43,10 +43,13 @@ function dsf3() {
     }
 }
 
-function miBorde(){
+
+//**** LOGICA DEL MINI-DESAFIO #1 --- BORDES ****/
+
+function miBorde() {
     var borde = document.getElementById("img-dsf1");
-      //alert("en la funcion, " & borde);
-      //console.log(borde);
+    //alert("en la funcion, " & borde);
+    //console.log(borde);
     if (borde.style.borderStyle === "none") {
         //alert("en el if");
         borde.style.borderStyle = "solid";
@@ -57,3 +60,40 @@ function miBorde(){
         borde.style.borderStyle = "none";
     }
 }
+
+//**** LOGICA DEL MINI-DESAFIO #1 --- BORDES ****/
+
+function totalizar() {
+    var valor1 = document.getElementById("cant1").value;
+    var valor2 = document.getElementById("cant2").value;
+    var valor3 = document.getElementById("cant3").value;
+
+    var tickets = Number(valor1) + Number(valor2) + Number(valor3);
+
+    var resultado = document.querySelector('#total-sticker');
+
+    if (valor1 < 0 || valor2 < 0 || valor3 < 0) {
+
+        resultado.innerHTML = "Debes ingresar valores mayores que Cero";
+
+    } else {
+
+        if (tickets <= 10) {
+            resultado.innerHTML = "Tu resultado es " + tickets + " tickets en total";
+        } else {
+            resultado.innerHTML = "Llevas demasiados tickets!!!";
+        }
+
+    }
+}
+
+function limpiaTickets() {
+    const input1 = document.getElementById("cant1");
+    const input2 = document.getElementById("cant2");
+    const input3 = document.getElementById("cant3");
+
+    input1.value = '';
+    input2.value = '';
+    input3.value = '';
+}
+

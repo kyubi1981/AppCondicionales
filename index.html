@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,8 +13,9 @@
 
     <title>Desafio2 - Condicionales</title>
 </head>
+
 <body>
-    
+
     <div class="container">
         <header>
             <div class="title">
@@ -28,7 +30,7 @@
                 <a href="#">Desafío 2 - Stickers</a>
                 <a href=onclick()>Desafío 3 - Password</a>
                 -->
-               
+
                 <button class="btn-mnu" onclick="dsf1()">Desafío 1 - Bordes</button>
 
                 <button class="btn-mnu" onclick="dsf2()">Desafío 2 - Stickers</button>
@@ -44,14 +46,16 @@
 
                     <div class="mi-card">
                         <div class="card-img">
-                            <img id="img-dsf1" onclick="miBorde()" class="img-desaf1" src="./assets/img/car.jpeg" style="border: none;" alt="">
+                            <img id="img-dsf1" onclick="miBorde()" class="img-desaf1" src="./assets/img/car.jpeg"
+                                style="border: none;" alt="">
                         </div>
                     </div>
 
-                </div>    
+                </div>
             </div>
 
             <div id="dsf2" style="display: none;">
+
                 <div class="gallery">
 
                     <div class="cards">
@@ -59,16 +63,16 @@
                             <img class="img-desaf2" src="./assets/img/sticker1.jpeg" alt="">
                         </div>
                         <div class="cant">
-                            <input class="txt-cant" type="number"> 
+                            <input id="cant1" class="txt-cant" type="number">
                         </div>
                     </div>
-                   
+
                     <div class="cards">
                         <div class="cards-img">
                             <img class="img-desaf2" src="./assets/img/sticker2.jpeg" alt="">
                         </div>
                         <div class="cant">
-                            <input class="txt-cant" type="number"> 
+                            <input id="cant2" class="txt-cant" type="number">
                         </div>
                     </div>
 
@@ -77,11 +81,16 @@
                             <img class="img-desaf2" src="./assets/img/sticker3.jpeg" alt="">
                         </div>
                         <div class="cant">
-                            <input class="txt-cant" type="number"> 
+                            <input id="cant3" class="txt-cant" type="number">
                         </div>
                     </div>
 
-                </div> 
+                </div>
+                <div class="result">
+                    <p id="total-sticker" class="msg-sticker">Tu resultado es...</p>
+                    <button class="btn-total" onclick="totalizar()">Pedir Tickets</button>
+                    <button class="btn-limpiar" onclick="limpiaTickets()">Limpiar</button>
+                </div>
             </div>
 
             <div id="dsf3" style="display: none;">
@@ -90,7 +99,7 @@
                     <div class="pass-title">
                         <h1>Ingresa el password</h1>
                     </div>
-                    
+
 
                     <div class="combos-dsf3">
 
@@ -105,7 +114,7 @@
                                 <option value="value1">7</option>
                                 <option value="value2">8</option>
                                 <option value="value3">9</option>
-                            </select>    
+                            </select>
                         </div>
                         <div class="cmb">
                             <select name="select" id="cmb_clave2">
@@ -118,7 +127,7 @@
                                 <option value="value1">7</option>
                                 <option value="value2">8</option>
                                 <option value="value3">9</option>
-                            </select>    
+                            </select>
                         </div>
                         <div class="cmb">
                             <select name="select" id="cmb_clave3">
@@ -131,7 +140,7 @@
                                 <option value="value1">7</option>
                                 <option value="value2">8</option>
                                 <option value="value3">9</option>
-                            </select>    
+                            </select>
                         </div>
 
                     </div>
@@ -150,4 +159,5 @@
     </div>
 
 </body>
+
 </html>

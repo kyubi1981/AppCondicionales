@@ -187,6 +187,39 @@ footer {
     margin: 5px;
 }
 
+.result{
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-sticker{
+    width: 80%;
+    box-shadow: 3px 3px 5px #342d2d;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-total{
+    width: 120px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: aquamarine;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid lightgray;
+}
+
+.btn-limpiar{
+    width: 120px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: rgb(209, 225, 116);
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid lightgray;
+}
+
 
 /************************************
 **    SUB-DESAFIO #3 - PASSWORD    **
